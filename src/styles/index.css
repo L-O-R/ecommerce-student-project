@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-poppins: 'Poppins', sans-serif;
+  --color-soft-primary: #84D187;
+  --color-primary: #00B207;
+  --color-hard-primary: #2C742F;
+  --color-warning: #FF8800;
+  --color-danger: #EA4B48;
+  --color-white: #FFFFFF;
+  --color-gray-9: #1A1A1A;
+  --color-gray-8: #333333;
+  --color-gray-7: #4D4D4D;
+  --color-gray-6: #666666;
+  --color-gray-5: #808080;
+  --color-gray-4: #999999;
+  --color-gray-3: #B3B3B3;
+  --color-gray-2: #CCCCCC;
+  --color-gray-1: #E6E6E6;
+  --color-gray-05: #F2F2F2;
+  --color-green-gray-9: #002603;
+  --color-green-gray-8: #173B1A;
+  --color-green-gray-7: #2B572E;
+  --color-green-gray-6: #406B43;
+  --color-green-gray-5: #567A5A;
+  --color-green-gray-4: #7A997C;
+  --color-green-gray-3: #96B298;
+  --color-green-gray-2: #B2C7B4;
+  --color-green-gray-1: #CEDDD0;
+  --color-green-gray-05: #EDF2EE;
+}
+
+@layer base {
+  .layout {
+    @apply w-full px-8 sm:px-12 md:px-18 lg:px-22 xl:px-24
+  }
+}
