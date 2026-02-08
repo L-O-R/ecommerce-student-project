@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeroSection = () => {
+const HotDealsSection = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default HotDealsSection

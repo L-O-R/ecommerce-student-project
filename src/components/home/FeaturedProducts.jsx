@@ -1,5 +1,11 @@
-const FeaturedProducts = () => {
-    return <section>Featured Products</section>;
-};
+import React from 'react'
 
-export default FeaturedProducts;
+const FeaturedProducts = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default FeaturedProducts

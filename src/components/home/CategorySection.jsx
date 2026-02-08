@@ -1,5 +1,11 @@
-const CategorySection = () => {
-    return <section>Category Section</section>;
-};
+import React from 'react'
 
-export default CategorySection;
+const CategorySection = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default CategorySection
