@@ -1,1 +1,281 @@
-[]
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Green Apple",
+      "slug": "green-apple",
+      "category": "fruits",
+      "subcategory": "fresh-fruits",
+      "price": 12.00,
+      "discountPrice": 10.50,
+      "discount": 12,
+      "image": "/images/Products/Fruits/GreenApple/GreenApple.png",
+      "gallery": [
+        "/images/Products/Fruits/GreenApple/green-apple1.jpg",
+        "/images/Products/Fruits/GreenApple/green_apple2.jpg",
+        "/images/Products/Fruits/GreenApple/green-apple3.jpg"
+
+      ],
+      "description": "Fresh organic green apples from local farms",
+      "details": "Rich in fiber and vitamin C. Perfect for snacks, salads, or baking...",
+      "stock": 50,
+      "unit": "kg",
+      "rating": 4.5,
+      "reviewCount": 12,
+      "tags": ["organic", "fresh", "seasonal"],
+      "nutritionFacts": {
+        "calories": 52,
+        "protein": "0.3g",
+        "carbs": "14g"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Orange",
+      "slug": "orange",
+      "category": "fruits",
+      "subcategory": "fresh-fruits",
+      "price": 14.00,
+      "discountPrice": 7.99,
+      "discount": 10,
+      "image": "/images/Products/Fruits/Oranges/Orange.png",
+      "gallery": [
+        "/images/Products/Fruits/Oranges/Orange-1.jpg",
+        "/images/Products/Fruits/Oranges/Orange-2.jpg",
+        "/images/Products/Fruits/Oranges/Orange-3.jpg"
+      ],
+      "description": "Sweet and juicy seedless oranges ripened in the sun",
+      "details": "High in antioxidants and an excellent source of Vitamin C to boost immunity...",
+      "stock": 85,
+      "unit": "kg",
+      "rating": 4.8,
+      "reviewCount": 24,
+      "tags": ["citrus", "vitamin-c", "juicy"],
+      "nutritionFacts": {
+        "calories": 47,
+        "protein": "0.9g",
+        "carbs": "12g"
+      }
+    },
+
+    {
+  "id": 3,
+  "name": " Chinese Cabbage",
+  "slug": " chinese cabbage",
+  "category": "vegetables",
+  "subcategory": "leafy-greens",
+  "price": 5.50,
+  "discountPrice": 3.99,
+  "discount": 27,
+  "image": "/images/Products/Vegetables/ChineseCabage.png",
+  "gallery": [
+    "/images/Products/Vegetables/ChineseCabage1.jpg",
+    "/images/Products/Vegetables/ChineseCabage2.jpg"
+  ],
+  "description": "Crisp and fresh green cabbage harvested daily",
+  "details": "A versatile vegetable rich in Vitamin K and dietary fiber. Great for coleslaw, stir-fries, or steaming...",
+  "stock": 120,
+  "unit": "kg",
+  "rating": 4.2,
+  "reviewCount": 18,
+  "tags": ["fresh", "vegetable", "low-calorie"],
+  "nutritionFacts": {
+    "calories": 25,
+    "protein": "1.3g",
+    "carbs": "6g"
+  }
+},
+   {
+  "id": 4,
+  "name": "Green Lettuce",
+  "slug": "green-lettuce",
+  "category": "vegetables",
+  "subcategory": "leafy-greens",
+  "price": 3.50,
+  "discountPrice": 2.99,
+  "discount": 15,
+  "image": "/images/Products/Vegetables/green-lattuce.jpg",
+  "gallery": [
+    "/images/Products/Vegetables/green-lattuce1.jpg"
+    
+  ],
+  "description": "Fresh and crunchy garden-picked green lettuce",
+  "details": "Hydrating and crisp leaves, perfect for fresh salads, sandwiches, and wraps. Low in calories and high in Vitamin A...",
+  "stock": 65,
+  "unit": "kg",
+  "rating": 4.6,
+  "reviewCount": 31,
+  "tags": ["fresh", "organic", "salad-ready"],
+  "nutritionFacts": {
+    "calories": 15,
+    "protein": "1.4g",
+    "carbs": "2.9g"
+  }
+},
+
+   {
+      "id": 5,
+      "name": "Brinjal ",
+      "slug": "brinjal",
+      "category": "vegetables",
+      "subcategory": "fresh-vegetables",
+      "price": 8.00,
+      "discountPrice": 6.50,
+      "discount": 18,
+      "image": "/images/Products/Vegetables/Brinjal.png",
+      "gallery": [
+        "/images/Products/Vegetables/brinjal-1.jpg"
+        
+      ],
+      "description": "Glossy purple brinjals with a tender, meaty texture",
+      "details": "Great for roasting, grilling, or traditional curries. Low in calories and a good source of fiber...",
+      "stock": 45,
+      "unit": "kg",
+      "rating": 4.4,
+      "reviewCount": 15,
+      "tags": ["purple", "fresh", "fiber-rich"],
+      "nutritionFacts": {
+        "calories": 25,
+        "protein": "1g",
+        "carbs": "6g"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Potatoes",
+      "slug": "potatoes",
+      "category": "vegetables",
+      "subcategory": "tubers",
+      "price": 4.00,
+      "discountPrice": 3.50,
+      "discount": 12,
+      "image": "/images/Products/Vegetables/Potatoes.png",
+      "gallery": [
+        "/images/Products/Vegetables/Potatoes/Potatoes1.jpg",
+        "/images/Products/Vegetables/Potatoes/Potatoes2.jpg"
+      ],
+      "description": "Farm-fresh starchy potatoes perfect for boiling or frying",
+      "details": "A versatile kitchen staple. High in potassium and Vitamin C when eaten with the skin...",
+      "stock": 200,
+      "unit": "kg",
+      "rating": 4.9,
+      "reviewCount": 120,
+      "tags": ["staple", "starchy", "versatile"],
+      "nutritionFacts": {
+        "calories": 77,
+        "protein": "2g",
+        "carbs": "17g"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Sweet Corn",
+      "slug": "sweet-corn",
+      "category": "vegetables",
+      "subcategory": "fresh-vegetables",
+      "price": 10.00,
+      "discountPrice": 8.99,
+      "discount": 10,
+      "image": "/images/Products/Vegetables/SweetCorn.png",
+      "gallery": [
+        "/images/Products/Vegetables/SweetCorn1.jpg",
+        "/images/Products/Vegetables/SweetCorn2.jpg"
+      ],
+      "description": "Golden yellow sweet corn kernels bursting with flavor",
+      "details": "Naturally sweet and crunchy. High in lutein and zeaxanthin for eye health...",
+      "stock": 90,
+      "unit": "kg",
+      "rating": 4.7,
+      "reviewCount": 45,
+      "tags": ["sweet", "seasonal", "yellow"],
+      "nutritionFacts": {
+        "calories": 86,
+        "protein": "3.2g",
+        "carbs": "19g"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Cauliflower",
+      "slug": "cauliflower",
+      "category": "vegetables",
+      "subcategory": "cruciferous",
+      "price": 7.00,
+      "discountPrice": 5.99,
+      "discount": 14,
+      "image": "/images/Products/Vegetables/Cauliflower.png",
+      "gallery": [
+        "/images/Products/Vegetables/Cauliflower1.jpg",
+        "/images/Products/Vegetables/Cauliflower2.jpg"
+
+
+      ],
+      "description": "Compact white cauliflower heads with fresh green leaves",
+      "details": "An excellent low-carb substitute for rice or flour. Rich in Vitamin C and antioxidants...",
+      "stock": 40,
+      "unit": "kg",
+      "rating": 4.3,
+      "reviewCount": 22,
+      "tags": ["low-carb", "healthy", "white"],
+      "nutritionFacts": {
+        "calories": 25,
+        "protein": "1.9g",
+        "carbs": "5g"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Capsicum ",
+      "slug": "green-capsicum",
+      "category": "vegetables",
+      "subcategory": "fresh-vegetables",
+      "price": 12.00,
+      "discountPrice": 10.00,
+      "discount": 16,
+      "image": "/images/Products/Vegetables/Capsicum.png",
+      "gallery": [
+        "/images/Products/Vegetables/Capsicum1.jpg",
+        "/images/Products/Vegetables/Capsicum2.jpg"
+
+      ],
+      "description": "Crunchy and mildly spicy green bell peppers",
+      "details": "Adds flavor and color to any dish. Exceptionally high in Vitamin C...",
+      "stock": 55,
+      "unit": "kg",
+      "rating": 4.5,
+      "reviewCount": 18,
+      "tags": ["crunchy", "green", "vitamin-rich"],
+      "nutritionFacts": {
+        "calories": 20,
+        "protein": "0.9g",
+        "carbs": "4.6g"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Green Chilli",
+      "slug": "green-chilli",
+      "category": "vegetables",
+      "subcategory": "fresh-vegetables",
+      "price": 6.00,
+      "discountPrice": 5.00,
+      "discount": 16,
+      "image": "/images/Products/Vegetablesi/GreenChilli.png",
+      "gallery": [
+        "/images/Products/Vegetables/greenchilli1.jpg"
+      ],
+      "description": "Hot and spicy green chillies to add heat to your meals",
+      "details": "Contains capsaicin which boosts metabolism. Use fresh or dried for varying heat levels...",
+      "stock": 30,
+      "unit": "kg",
+      "rating": 4.8,
+      "reviewCount": 52,
+      "tags": ["spicy", "hot", "seasoning"],
+      "nutritionFacts": {
+        "calories": 40,
+        "protein": "2g",
+        "carbs": "9g"
+      }
+    }
+  ]
+}
