@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
 
 const FeaturesSection = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+      <div>
+        <div>
+
+        </div>
+      </div>
+    </section>
   )
 }
 
