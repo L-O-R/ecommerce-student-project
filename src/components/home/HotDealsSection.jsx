@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ProductCard from '../shop/ProductCard'
 const HotDealsSection = () => {
   return (
     <>
@@ -14,13 +14,13 @@ const HotDealsSection = () => {
 
       {/* Grid */}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-        {products.map((item) =>
-          item.featured ? (
-            <FeaturedCard key={item.id} item={item} />
-          ) : (
+        {/* {products.map((item) =>
+          // item.featured ? (
+            // <FeaturedCard key={item.id} item={item} />
+          // ) : (
             <ProductCard key={item.id} item={item} />
-          )
-        )}
+          // )
+        )} */}
       </div>
     </section>
  </>
