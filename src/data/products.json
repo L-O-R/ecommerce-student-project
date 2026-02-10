@@ -7,13 +7,13 @@
       "category": "fruits",
       "subcategory": "fresh-fruits",
       "price": 12.00,
-      "discountPrice": 10.50,
-      "discount": 12,
-      "image": "/images/Products/Fruits/GreenApple/GreenApple.png",
+     "sale":"50%",
+      "discount": "12%",
+      "image": "/images/Product/Fruits/GreenApple/GreenApple.png",
       "gallery": [
-        "/images/Products/Fruits/GreenApple/green-apple1.jpg",
-        "/images/Products/Fruits/GreenApple/green_apple2.jpg",
-        "/images/Products/Fruits/GreenApple/green-apple3.jpg"
+        "/images/Product/Fruits/GreenApple/green-apple1.jpg",
+        "/images/Product/Fruits/GreenApple/green_apple2.jpg",
+        "/images/Product/Fruits/GreenApple/green-apple3.jpg"
 
       ],
       "description": "Fresh organic green apples from local farms",
@@ -36,13 +36,13 @@
       "category": "fruits",
       "subcategory": "fresh-fruits",
       "price": 14.00,
-      "discountPrice": 7.99,
-      "discount": 10,
-      "image": "/images/Products/Fruits/Oranges/Orange.png",
+      
+      "discount": 0,
+      "image": "/images/Product/Fruits/Oranges/Orange.png",
       "gallery": [
-        "/images/Products/Fruits/Oranges/Orange-1.jpg",
-        "/images/Products/Fruits/Oranges/Orange-2.jpg",
-        "/images/Products/Fruits/Oranges/Orange-3.jpg"
+        "/images/Product/Fruits/Oranges/Orange-1.jpg",
+        "/images/Product/Fruits/Oranges/Orange-2.jpg",
+        "/images/Product/Fruits/Oranges/Orange-3.jpg"
       ],
       "description": "Sweet and juicy seedless oranges ripened in the sun",
       "details": "High in antioxidants and an excellent source of Vitamin C to boost immunity...",
@@ -65,12 +65,12 @@
   "category": "vegetables",
   "subcategory": "leafy-greens",
   "price": 5.50,
-  "discountPrice": 3.99,
-  "discount": 27,
-  "image": "/images/Products/Vegetables/ChineseCabage.png",
+ 
+  "discount": 0,
+  "image": "/images/Product/Vegetable/ChineseCabage.png",
   "gallery": [
-    "/images/Products/Vegetables/ChineseCabage1.jpg",
-    "/images/Products/Vegetables/ChineseCabage2.jpg"
+    "/images/Product/Vegetable/ChineseCabage1.jpg",
+    "/images/Product/Vegetable/ChineseCabage2.jpg"
   ],
   "description": "Crisp and fresh green cabbage harvested daily",
   "details": "A versatile vegetable rich in Vitamin K and dietary fiber. Great for coleslaw, stir-fries, or steaming...",
@@ -92,11 +92,11 @@
   "category": "vegetables",
   "subcategory": "leafy-greens",
   "price": 3.50,
-  "discountPrice": 2.99,
-  "discount": 15,
-  "image": "/images/Products/Vegetables/green-lattuce.jpg",
+  
+  "discount": 0,
+  "image": "/images/Product/Vegetable/green-lattuce.jpg",
   "gallery": [
-    "/images/Products/Vegetables/green-lattuce1.jpg"
+    "/images/Product/Vegetable/green-lattuce1.jpg"
     
   ],
   "description": "Fresh and crunchy garden-picked green lettuce",
@@ -120,11 +120,11 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 8.00,
-      "discountPrice": 6.50,
-      "discount": 18,
-      "image": "/images/Products/Vegetables/Brinjal.png",
+      
+      "discount": 0,
+      "image": "/images/Product/Vegetable/Brinjal.png",
       "gallery": [
-        "/images/Products/Vegetables/brinjal-1.jpg"
+        "/images/Product/Vegetable/brinjal-1.jpg"
         
       ],
       "description": "Glossy purple brinjals with a tender, meaty texture",
@@ -147,12 +147,12 @@
       "category": "vegetables",
       "subcategory": "tubers",
       "price": 4.00,
-      "discountPrice": 3.50,
-      "discount": 12,
-      "image": "/images/Products/Vegetables/Potatoes.png",
+      
+      "discount": 0,
+      "image": "/images/Product/Vegetable/Potatoes.png",
       "gallery": [
-        "/images/Products/Vegetables/Potatoes/Potatoes1.jpg",
-        "/images/Products/Vegetables/Potatoes/Potatoes2.jpg"
+        "/images/Product/Vegetable/Potatoes1.jpg",
+        "/images/Product/Vegetable/Potatoes2.jpg"
       ],
       "description": "Farm-fresh starchy potatoes perfect for boiling or frying",
       "details": "A versatile kitchen staple. High in potassium and Vitamin C when eaten with the skin...",
@@ -174,12 +174,12 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 10.00,
-      "discountPrice": 8.99,
-      "discount": 10,
-      "image": "/images/Products/Vegetables/SweetCorn.png",
+      
+      "discount": 0,
+      "image": "/images/Product/Vegetable/SweetCorn.png",
       "gallery": [
-        "/images/Products/Vegetables/SweetCorn1.jpg",
-        "/images/Products/Vegetables/SweetCorn2.jpg"
+        "/images/Product/Vegetable/SweetCorn1.jpg",
+        "/images/Product/Vegetable/SweetCorn2.jpg"
       ],
       "description": "Golden yellow sweet corn kernels bursting with flavor",
       "details": "Naturally sweet and crunchy. High in lutein and zeaxanthin for eye health...",
@@ -201,12 +201,12 @@
       "category": "vegetables",
       "subcategory": "cruciferous",
       "price": 7.00,
-      "discountPrice": 5.99,
-      "discount": 14,
-      "image": "/images/Products/Vegetables/Cauliflower.png",
+      
+      "discount": 0,
+      "image": "/images/Product/Vegetable/Cauliflower.png",
       "gallery": [
-        "/images/Products/Vegetables/Cauliflower1.jpg",
-        "/images/Products/Vegetables/Cauliflower2.jpg"
+        "/images/Product/Vegetable/Cauliflower1.jpg",
+        "/images/Product/Vegetable/Cauliflower2.jpg"
 
 
       ],
@@ -230,12 +230,13 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 12.00,
-      "discountPrice": 10.00,
-      "discount": 16,
-      "image": "/images/Products/Vegetables/Capsicum.png",
+       "sale":"50%",
+      "discount": "15%",
+     
+      "image": "/images/Product/Vegetable/Capsicum.png",
       "gallery": [
-        "/images/Products/Vegetables/Capsicum1.jpg",
-        "/images/Products/Vegetables/Capsicum2.jpg"
+        "/images/Product/Vegetable/Capsicum1.jpg",
+        "/images/Product/Vegetable/Capsicum2.jpg"
 
       ],
       "description": "Crunchy and mildly spicy green bell peppers",
@@ -258,11 +259,11 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 6.00,
-      "discountPrice": 5.00,
-      "discount": 16,
-      "image": "/images/Products/Vegetablesi/GreenChilli.png",
+    
+      "discount": 0,
+      "image": "/images/Product/Vegetable/GreenChilli.png",
       "gallery": [
-        "/images/Products/Vegetables/greenchilli1.jpg"
+        "/images/Product/Vegetable/greenchilli1.jpg"
       ],
       "description": "Hot and spicy green chillies to add heat to your meals",
       "details": "Contains capsaicin which boosts metabolism. Use fresh or dried for varying heat levels...",
@@ -271,6 +272,84 @@
       "rating": 4.8,
       "reviewCount": 52,
       "tags": ["spicy", "hot", "seasoning"],
+      "nutritionFacts": {
+        "calories": 40,
+        "protein": "2g",
+        "carbs": "9g"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Red Capsicum",
+      "slug": "red Capsicum",
+      "category": "vegetables",
+      "subcategory": "fresh-vegetables",
+      "price": 12.00,
+    
+      "discount": 0,
+      "image": "/images/Product/Vegetable/redCapsicum.jpg",
+      "gallery": [
+        "/images/Product/Vegetable/red-capsicum1.jpg"
+      ],
+      "description": "Vibrant and crunchy Red Capsicums, perfect for adding a sweet, mild flavor to stir-fries and salads.",
+      "details": "Contains red capsaicin which boosts metabolism. Use fresh or dried for varying heat levels...",
+      "stock": 60,
+      "unit": "kg",
+      "rating": 4.8,
+      "reviewCount": 52,
+      "tags": ["vegetable", "fresh", "capsicum", "organic", "vitamin-c", "cooking"],
+      "nutritionFacts": {
+        "calories": 40,
+        "protein": "2g",
+        "carbs": "9g"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Red Tomatos",
+      "slug": "red tomatos",
+      "category": "vegetables",
+      "subcategory": "fresh-vegetables",
+      "price": 9.00,
+    
+      "discount": 0,
+      "image": "/images/Product/Vegetable/Tomato.jpg",
+      "gallery": [
+        "/images/Product/Vegetable/Tomatoe1.jpg"
+      ],
+      "description": "Tomatoes  to add and it gives very fresh to your meals",
+      "details": "Contains  red tomatoes  which boosts metabolism. Use fresh or dried for varying heat levels...",
+      "stock": 30,
+      "unit": "kg",
+      "rating": 4.8,
+      "reviewCount": 52,
+      "tags": ["vegetable", "tomato", "salad", "red", "healthy", "raw"],
+      "nutritionFacts": {
+        "calories": 40,
+        "protein": "2g",
+        "carbs": "9g"
+      }
+    },
+    {
+      "id": 13,
+      "name": " Surjapur Mango ",
+      "slug": "mango",
+      "category": "vegetables",
+      "subcategory": "fresh-vegetables",
+      "price": 6.00,
+    
+      "discount": 0,
+      "image": "/images/Product/Mango/Mango.jpg",
+      "gallery": [
+        "/images/Product/Mango/Mangos1.jpg"
+      ],
+      "description": "Sweet and Mango to add  to your meals",
+      "details":"Sweet, juicy, and sun-ripened Surjapur mangoes known for their rich aroma and fiberless pulp." ,
+      "stock": 30,
+      "unit": "kg",
+      "rating": 4.8,
+      "reviewCount": 52,
+      "tags": ["fruit", "sweet", "tropical", "seasonal", "mango", "juice"],
       "nutritionFacts": {
         "calories": 40,
         "protein": "2g",

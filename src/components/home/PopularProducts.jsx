@@ -9,7 +9,7 @@ const PopularProducts = () => {
   return (
     <section>
       <div>
-      <h2>Popular Products</h2>
+      <h2 className="font-medium text-">Popular Products</h2>
       <a href="">View all -- </a>
       </div>
 
