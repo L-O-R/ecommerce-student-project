@@ -1,4 +1,4 @@
-import applepay from "../assets/icons/applepayicon.png";
+import applepay from "../assets/icons/applePayicon.png";
 import visa from "../assets/icons/visaicon.png";
 import discover from "../assets/icons/discovericon.png";
 import mastercard from "../assets/icons/mastercardicon.png";
