@@ -7,16 +7,14 @@ const PopularProducts = () => {
   // this will return the first 10 products from all products
 
   return (
-    <section>
-      <div>
-        <h2>Popular Products</h2>
-        <a href="">View all -- </a>
+    <section className='py-10'>
+      <div className="layout flex justify-between items-center">
+        <h2 className="font-medium text-xl">Popular Products</h2>
+        <a href="" className='text-sm text-primary'>View all -- </a>
       </div>
 
 
-      <div className='grid grid-cols-2   md:grid-cols-3 lg:grid-cols-5'>
-
-
+      <div className=' layout py-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
 
         {
           popularProducts.map((product) => {

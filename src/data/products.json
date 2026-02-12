@@ -7,14 +7,13 @@
       "category": "fruits",
       "subcategory": "fresh-fruits",
       "price": 12.00,
-     "sale":"50%",
+      "sale": "50%",
       "discount": "12%",
       "image": "/images/Product/Fruits/GreenApple/GreenApple.png",
       "gallery": [
         "/images/Product/Fruits/GreenApple/green-apple1.jpg",
         "/images/Product/Fruits/GreenApple/green_apple2.jpg",
         "/images/Product/Fruits/GreenApple/green-apple3.jpg"
-
       ],
       "description": "Fresh organic green apples from local farms",
       "details": "Rich in fiber and vitamin C. Perfect for snacks, salads, or baking...",
@@ -22,7 +21,11 @@
       "unit": "kg",
       "rating": 4.5,
       "reviewCount": 12,
-      "tags": ["organic", "fresh", "seasonal"],
+      "tags": [
+        "organic",
+        "fresh",
+        "seasonal"
+      ],
       "nutritionFacts": {
         "calories": 52,
         "protein": "0.3g",
@@ -36,7 +39,6 @@
       "category": "fruits",
       "subcategory": "fresh-fruits",
       "price": 14.00,
-      
       "discount": 0,
       "image": "/images/Product/Fruits/Oranges/Orange.png",
       "gallery": [
@@ -50,82 +52,87 @@
       "unit": "kg",
       "rating": 4.8,
       "reviewCount": 24,
-      "tags": ["citrus", "vitamin-c", "juicy"],
+      "tags": [
+        "citrus",
+        "vitamin-c",
+        "juicy"
+      ],
       "nutritionFacts": {
         "calories": 47,
         "protein": "0.9g",
         "carbs": "12g"
       }
     },
-
     {
-  "id": 3,
-  "name": " Chinese Cabbage",
-  "slug": " chinese cabbage",
-  "category": "vegetables",
-  "subcategory": "leafy-greens",
-  "price": 5.50,
- 
-  "discount": 0,
-  "image": "/images/Product/Vegetable/ChineseCabage.png",
-  "gallery": [
-    "/images/Product/Vegetable/ChineseCabage1.jpg",
-    "/images/Product/Vegetable/ChineseCabage2.jpg"
-  ],
-  "description": "Crisp and fresh green cabbage harvested daily",
-  "details": "A versatile vegetable rich in Vitamin K and dietary fiber. Great for coleslaw, stir-fries, or steaming...",
-  "stock": 120,
-  "unit": "kg",
-  "rating": 4.2,
-  "reviewCount": 18,
-  "tags": ["fresh", "vegetable", "low-calorie"],
-  "nutritionFacts": {
-    "calories": 25,
-    "protein": "1.3g",
-    "carbs": "6g"
-  }
-},
-   {
-  "id": 4,
-  "name": "Green Lettuce",
-  "slug": "green-lettuce",
-  "category": "vegetables",
-  "subcategory": "leafy-greens",
-  "price": 3.50,
-  
-  "discount": 0,
-  "image": "/images/Product/Vegetable/green-lattuce.jpg",
-  "gallery": [
-    "/images/Product/Vegetable/green-lattuce1.jpg"
-    
-  ],
-  "description": "Fresh and crunchy garden-picked green lettuce",
-  "details": "Hydrating and crisp leaves, perfect for fresh salads, sandwiches, and wraps. Low in calories and high in Vitamin A...",
-  "stock": 65,
-  "unit": "kg",
-  "rating": 4.6,
-  "reviewCount": 31,
-  "tags": ["fresh", "organic", "salad-ready"],
-  "nutritionFacts": {
-    "calories": 15,
-    "protein": "1.4g",
-    "carbs": "2.9g"
-  }
-},
-
-   {
+      "id": 3,
+      "name": " Chinese Cabbage",
+      "slug": " chinese cabbage",
+      "category": "vegetables",
+      "subcategory": "leafy-greens",
+      "price": 5.50,
+      "discount": 0,
+      "image": "/images/Product/Vegetable/ChineseCabage.png",
+      "gallery": [
+        "/images/Product/Vegetable/ChineseCabage1.jpg",
+        "/images/Product/Vegetable/ChineseCabage2.jpg"
+      ],
+      "description": "Crisp and fresh green cabbage harvested daily",
+      "details": "A versatile vegetable rich in Vitamin K and dietary fiber. Great for coleslaw, stir-fries, or steaming...",
+      "stock": 120,
+      "unit": "kg",
+      "rating": 4.2,
+      "reviewCount": 18,
+      "tags": [
+        "fresh",
+        "vegetable",
+        "low-calorie"
+      ],
+      "nutritionFacts": {
+        "calories": 25,
+        "protein": "1.3g",
+        "carbs": "6g"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Green Lettuce",
+      "slug": "green-lettuce",
+      "category": "vegetables",
+      "subcategory": "leafy-greens",
+      "price": 3.50,
+      "discount": 0,
+      "image": "/images/Product/Vegetable/green-lattuce.jpg",
+      "gallery": [
+        "/images/Product/Vegetable/green-lattuce1.jpg"
+      ],
+      "description": "Fresh and crunchy garden-picked green lettuce",
+      "details": "Hydrating and crisp leaves, perfect for fresh salads, sandwiches, and wraps. Low in calories and high in Vitamin A...",
+      "stock": 65,
+      "unit": "kg",
+      "rating": 4.6,
+      "reviewCount": 31,
+      "tags": [
+        "fresh",
+        "organic",
+        "salad-ready"
+      ],
+      "nutritionFacts": {
+        "calories": 15,
+        "protein": "1.4g",
+        "carbs": "2.9g"
+      }
+    },
+    {
       "id": 5,
       "name": "Brinjal ",
       "slug": "brinjal",
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 8.00,
-      
       "discount": 0,
       "image": "/images/Product/Vegetable/Brinjal.png",
       "gallery": [
         "/images/Product/Vegetable/brinjal-1.jpg"
-        
       ],
       "description": "Glossy purple brinjals with a tender, meaty texture",
       "details": "Great for roasting, grilling, or traditional curries. Low in calories and a good source of fiber...",
@@ -133,7 +140,11 @@
       "unit": "kg",
       "rating": 4.4,
       "reviewCount": 15,
-      "tags": ["purple", "fresh", "fiber-rich"],
+      "tags": [
+        "purple",
+        "fresh",
+        "fiber-rich"
+      ],
       "nutritionFacts": {
         "calories": 25,
         "protein": "1g",
@@ -147,7 +158,6 @@
       "category": "vegetables",
       "subcategory": "tubers",
       "price": 4.00,
-      
       "discount": 0,
       "image": "/images/Product/Vegetable/Potatoes.png",
       "gallery": [
@@ -160,7 +170,11 @@
       "unit": "kg",
       "rating": 4.9,
       "reviewCount": 120,
-      "tags": ["staple", "starchy", "versatile"],
+      "tags": [
+        "staple",
+        "starchy",
+        "versatile"
+      ],
       "nutritionFacts": {
         "calories": 77,
         "protein": "2g",
@@ -174,7 +188,6 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 10.00,
-      
       "discount": 0,
       "image": "/images/Product/Vegetable/SweetCorn.png",
       "gallery": [
@@ -187,7 +200,11 @@
       "unit": "kg",
       "rating": 4.7,
       "reviewCount": 45,
-      "tags": ["sweet", "seasonal", "yellow"],
+      "tags": [
+        "sweet",
+        "seasonal",
+        "yellow"
+      ],
       "nutritionFacts": {
         "calories": 86,
         "protein": "3.2g",
@@ -201,14 +218,11 @@
       "category": "vegetables",
       "subcategory": "cruciferous",
       "price": 7.00,
-      
       "discount": 0,
       "image": "/images/Product/Vegetable/Cauliflower.png",
       "gallery": [
         "/images/Product/Vegetable/Cauliflower1.jpg",
         "/images/Product/Vegetable/Cauliflower2.jpg"
-
-
       ],
       "description": "Compact white cauliflower heads with fresh green leaves",
       "details": "An excellent low-carb substitute for rice or flour. Rich in Vitamin C and antioxidants...",
@@ -216,7 +230,11 @@
       "unit": "kg",
       "rating": 4.3,
       "reviewCount": 22,
-      "tags": ["low-carb", "healthy", "white"],
+      "tags": [
+        "low-carb",
+        "healthy",
+        "white"
+      ],
       "nutritionFacts": {
         "calories": 25,
         "protein": "1.9g",
@@ -230,14 +248,12 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 12.00,
-       "sale":"50%",
+      "sale": "50%",
       "discount": "15%",
-     
       "image": "/images/Product/Vegetable/Capsicum.png",
       "gallery": [
         "/images/Product/Vegetable/Capsicum1.jpg",
         "/images/Product/Vegetable/Capsicum2.jpg"
-
       ],
       "description": "Crunchy and mildly spicy green bell peppers",
       "details": "Adds flavor and color to any dish. Exceptionally high in Vitamin C...",
@@ -245,7 +261,11 @@
       "unit": "kg",
       "rating": 4.5,
       "reviewCount": 18,
-      "tags": ["crunchy", "green", "vitamin-rich"],
+      "tags": [
+        "crunchy",
+        "green",
+        "vitamin-rich"
+      ],
       "nutritionFacts": {
         "calories": 20,
         "protein": "0.9g",
@@ -259,7 +279,6 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 6.00,
-    
       "discount": 0,
       "image": "/images/Product/Vegetable/GreenChilli.png",
       "gallery": [
@@ -271,7 +290,11 @@
       "unit": "kg",
       "rating": 4.8,
       "reviewCount": 52,
-      "tags": ["spicy", "hot", "seasoning"],
+      "tags": [
+        "spicy",
+        "hot",
+        "seasoning"
+      ],
       "nutritionFacts": {
         "calories": 40,
         "protein": "2g",
@@ -285,7 +308,6 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 12.00,
-    
       "discount": 0,
       "image": "/images/Product/Vegetable/redCapsicum.jpg",
       "gallery": [
@@ -297,7 +319,14 @@
       "unit": "kg",
       "rating": 4.8,
       "reviewCount": 52,
-      "tags": ["vegetable", "fresh", "capsicum", "organic", "vitamin-c", "cooking"],
+      "tags": [
+        "vegetable",
+        "fresh",
+        "capsicum",
+        "organic",
+        "vitamin-c",
+        "cooking"
+      ],
       "nutritionFacts": {
         "calories": 40,
         "protein": "2g",
@@ -311,7 +340,6 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 9.00,
-    
       "discount": 0,
       "image": "/images/Product/Vegetable/Tomato.jpg",
       "gallery": [
@@ -323,7 +351,14 @@
       "unit": "kg",
       "rating": 4.8,
       "reviewCount": 52,
-      "tags": ["vegetable", "tomato", "salad", "red", "healthy", "raw"],
+      "tags": [
+        "vegetable",
+        "tomato",
+        "salad",
+        "red",
+        "healthy",
+        "raw"
+      ],
       "nutritionFacts": {
         "calories": 40,
         "protein": "2g",
@@ -337,19 +372,25 @@
       "category": "vegetables",
       "subcategory": "fresh-vegetables",
       "price": 6.00,
-    
       "discount": 0,
       "image": "/images/Product/Mango/Mango.jpg",
       "gallery": [
         "/images/Product/Mango/Mangos1.jpg"
       ],
       "description": "Sweet and Mango to add  to your meals",
-      "details":"Sweet, juicy, and sun-ripened Surjapur mangoes known for their rich aroma and fiberless pulp." ,
+      "details": "Sweet, juicy, and sun-ripened Surjapur mangoes known for their rich aroma and fiberless pulp.",
       "stock": 30,
       "unit": "kg",
       "rating": 4.8,
       "reviewCount": 52,
-      "tags": ["fruit", "sweet", "tropical", "seasonal", "mango", "juice"],
+      "tags": [
+        "fruit",
+        "sweet",
+        "tropical",
+        "seasonal",
+        "mango",
+        "juice"
+      ],
       "nutritionFacts": {
         "calories": 40,
         "protein": "2g",
