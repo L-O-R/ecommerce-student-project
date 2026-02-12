@@ -7,7 +7,7 @@
       "category": "fruits",
       "subcategory": "fresh-fruits",
       "price": 12.00,
-     "sale":"50%",
+     "sale":"Sale 50%",
       "discount": "12%",
       "image": "/images/Product/Fruits/GreenApple/GreenApple.png",
       "gallery": [
@@ -42,7 +42,7 @@
       "gallery": [
         "/images/Product/Fruits/Oranges/Orange-1.jpg",
         "/images/Product/Fruits/Oranges/Orange-2.jpg",
-        "/images/Product/Fruits/Oranges/Orange-3.jpg"
+        "/images/Product/Fruits/Oranges/Orange-3.jpg" 
       ],
       "description": "Sweet and juicy seedless oranges ripened in the sun",
       "details": "High in antioxidants and an excellent source of Vitamin C to boost immunity...",
