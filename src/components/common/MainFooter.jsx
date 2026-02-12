@@ -16,7 +16,7 @@ const MainFooter = () => {
             <h3 className="text-white text-3xl font-semibold">Ecobazar</h3>
           </div>
           <p className="text-gray-5 mt-3 font-medium max-w-84">Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.</p>
-          
+
           <div className="text-white flex flex-row gap-4 mt-5">
             <span className="underline decoration-2 decoration-primary underline-offset-8">(219) 555-0114</span>
             <p className="text-gray-5">or</p>
@@ -91,25 +91,25 @@ const MainFooter = () => {
           </div>
         </div>
       </div>
-    
-       {/*2nd Footer Section*/}
-        <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-6">
-           <p className="text-gray-5 text-sm text-center md:text-left">Ecobazar eCommerce © 2021. All Rights Reserved</p>
-          
-            <ul className="flex items-center gap-4">
-              {Images_navlinks.map((item) => (
-             <li key={item.id}>
+
+      {/*2nd Footer Section*/}
+      <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-6">
+        <p className="text-gray-5 text-sm text-center md:text-left">Ecobazar eCommerce © 2021. All Rights Reserved</p>
+
+        <ul className="flex items-center gap-4">
+          {Images_navlinks.map((item) => (
+            <li key={item.id}>
               <img
                 src={item.image}
                 alt={item.name}
                 className="w-14 h-10 gap-2 object-contain opacity-80 border rounded-sm outline-gray-3 hover:opacity-100 transition duration-200"
               />
-             </li>
-             ))}
-            </ul>
-        </div>  
-  
-   </footer>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+    </footer>
   )
 
 };
