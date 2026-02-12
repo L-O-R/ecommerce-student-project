@@ -11,7 +11,7 @@ const FeaturedProducts = () => {
       <section className='py-10'>
       <div className="layout flex justify-between items-center ">
       <h2 className="font-medium text-xl">Featured Products</h2>
-      <a href="" className='text-sm text-primary'>View all -- </a>
+      <a href="" className='text-sm text-primary'>View all --&gt; </a>
       </div>
 
  
