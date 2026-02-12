@@ -1,5 +1,11 @@
-const SubscriberModal = () => {
-    return <div>Subscriber Modal</div>;
-};
+import React from 'react'
 
-export default SubscriberModal;
+const SubscriberModal = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
+export default SubscriberModal

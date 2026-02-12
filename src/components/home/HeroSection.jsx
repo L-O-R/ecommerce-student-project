@@ -1,5 +1,11 @@
-const HeroSection = () => {
-    return <section>Hero Section</section>;
-};
+import React from 'react'
 
-export default HeroSection;
+const HeroSection = () => {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
+export default HeroSection
