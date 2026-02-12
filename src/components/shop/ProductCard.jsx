@@ -14,14 +14,14 @@ const ProductCard = ({ product }) => {
 
     return (
 
-        <div className="group bg-white     border   border-gray-1  p-4 transition-all duration-300 ease-in-out 
+        <div className="group bg-white     border   border-gray-1  p-2 transition-all duration-300 ease-in-out 
                         hover:border-hard-primary hover:shadow-xl hover:-translate-y-1">
 
 
 
             {/* Product Image */}
 
-            <div className="relative w-full h-44 mb-3 flex items-center justify-center overflow-hidden">
+            <div className="relative w-full h-44 mb-4 flex items-center justify-center overflow-hidden">
 
                 <img
 
@@ -34,7 +34,7 @@ const ProductCard = ({ product }) => {
                 />
 
                 {product?.sale && (
-                    <div className='absolute top-1 left-3 z-10 bg-danger px-2 py-1 rounded text-xs font-medium text-white shadow-sm'>
+                    <div className='absolute top-1 left-3 z-10 bg-danger px-2 py-1 rounded text-xs font-medium text-white shadow-sm '>
                         <p>Sale 50%</p>
                     </div>
                 )}
@@ -50,11 +50,11 @@ const ProductCard = ({ product }) => {
                 <div>
 
                     {/* Standard Tailwind Color */}
-                    <h3 className="text-sm text-gray-700 font-medium group-hover:text-hard-primary-600 transition-colors">
+                    <h3 className="text-sm text-gray-700 font-normal group-hover:text-hard-primary-600 transition-colors">
                         {name}
                     </h3>
 
-                    <div className="flex items-center gap-2 mt-1">
+                    <div className="flex items-center gap-1 ">
                         {/* The New/Current Price */}
                         <p className="text-base font-bold text-gray-900">
                             ${price.toFixed(2)}
