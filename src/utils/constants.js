@@ -69,12 +69,12 @@ export const header_navlinks = [
     {
         id: "005",
         name: "About Us",
-        link: "About Us",
+        link: "/about",
     },
     {
         id: "006",
         name: "Contact Us",
-        link: "Contact Us"
+        link: "/contact"
     }
 
 
