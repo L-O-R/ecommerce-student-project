@@ -12,21 +12,21 @@ import ClientTestimonials from "../components/home/ClientTestimonials";
 import SubscriberModal from "../components/home/SubscriberModal";
 
 const Home = () => {
-  return (
-    <>
-      <HeroSection />
-      <FeaturesSection />
-      <CategorySection />
-      <PopularProducts />
-      <SaleBannerSection />
-      <HotDealsSection />
-      <BestSaleTimer />
-      <FeaturedProducts />
-      <LatestNews />
-      <ClientTestimonials />
-      <SubscriberModal />
-    </>
-  );
+    return (
+        <>
+            <HeroSection />
+            <FeaturesSection />
+            <CategorySection />
+            <PopularProducts />
+            <SaleBannerSection />
+            <HotDealsSection />
+            <BestSaleTimer />
+            <FeaturedProducts />
+            <LatestNews />
+            <ClientTestimonials />
+            <SubscriberModal />
+        </>
+    );
 };
 
 export default Home;

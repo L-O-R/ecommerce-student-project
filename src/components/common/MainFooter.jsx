@@ -2,6 +2,10 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logos/headerlogo.png";
 import { Account_navlinks, Helps_navlinks, Proxy_navlinks, Categories_navlinks, Images_navlinks } from "../../utils/constants";
 
+import { Link } from "react-router-dom";
+import logo from "../../assets/logos/headerlogo.png";
+import { Account_navlinks, Helps_navlinks, Proxy_navlinks, Categories_navlinks, Images_navlinks } from "../../utils/constants";
+
 
 const MainFooter = () => {
   return (
