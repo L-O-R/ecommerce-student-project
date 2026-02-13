@@ -1,8 +1,6 @@
 import React from 'react'
 import BGimage from "../../assets/images/BG.png";
 import { useRef, useEffect } from 'react';
-import BGimage from "../../assets/images/BG.png";
-import { useRef, useEffect } from 'react';
 
 const SubscriberModal = () => {
 
@@ -114,5 +112,4 @@ const SubscriberModal = () => {
   )
 }
 
-export default SubscriberModal;
 export default SubscriberModal;
