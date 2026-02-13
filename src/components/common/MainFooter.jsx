@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logos/headerlogo.png";
 import { Account_navlinks, Helps_navlinks, Proxy_navlinks, Categories_navlinks, Images_navlinks } from "../../utils/constants";
 
-
 const MainFooter = () => {
   return (
     <footer className="bg-gray-9 pt-20 pb-10 space-y-8 w-full px-8 sm:px-12 md:px-18 lg:px-22 xl:px-24">
