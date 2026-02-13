@@ -9,14 +9,14 @@ export const APP_NAME = 'E-Commerce Store';
 
 export const auth_navlinks = [
     {
-        id:"001",
-        name:"signin",
-        link:"signin",
+        id: "001",
+        name: "signin",
+        link: "signin",
     },
     {
-        id:"002",
-        name:"signup",
-        link:"register",
+        id: "002",
+        name: "signup",
+        link: "register",
 
     },
 ];
