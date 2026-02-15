@@ -50,21 +50,21 @@ const SubscriberModal = () => {
           </div>
 
           {/* 60% Form Section */}
-          <div className="w-full md:w-3/5 px-8  flex flex-col justify-center items-center">
+          <div className="w-full md:w-3/5 px-8 flex flex-col justify-center items-center">
 
-            <form onSubmit={handleSubmit} className="flex flex-col  justify-center  gap-8">
+            <form onSubmit={handleSubmit} className="flex flex-col  justify-center  gap-2">
 
               <div className="flex justify-end">
                 <button
                   onClick={handleClose}
                   type="button"
-                  className="text-lg bg-transparent border-0 focus:outline-none hover:opacity-70"
+                  className="text-lg bg-transparent border-0  mb-8  mt-2 focus:outline-none hover:opacity-70"
                 >
                   ✕
                 </button>
               </div>
 
-              <div className="flex flex-col  items-center gap-10 text-center md:text-left">
+              <div className="flex flex-col px-12 items-center gap-12 text-center md:text-left">
 
                 <h1 className="text-2xl font-medium">
                   Subscribe to Our Newsletter
