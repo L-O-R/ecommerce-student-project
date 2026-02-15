@@ -1,4 +1,5 @@
 import image1 from "../assets/images/image.png";
+import {useState} from "react";
 const data =
 
     [
@@ -32,6 +33,10 @@ const data =
 
 
 const FAQ = () => {
+    const[openId, setOpenId] = useState(null);
+    //we have initialised state feature here, openId stores which item is currently opened.
+    //initially it is null which means nothing is opened yet. 
+
     return (
         <section className="flex flex-col sm:flex-row gap-6 py-10  px-14 md:25 lg:px-30">
             <div className="flex-1 flex flex-col gap-6 ">
@@ -40,10 +45,29 @@ const FAQ = () => {
                 <div className="flex flex-col gap-4">
                     {data.map((item) => {
                         return (
-                            <details key={item.id} className="cursor-default group border border-gray-300 rounded-lg  bg-gray-05 shadow-sm open:shadow-md open:border-soft-primary open:bg-white transition-shadow duration-300 ">
-                                <summary className="text-base font-medium group-open:text-hard-primary group-open:border-b border-soft-primary py-3 px-3 flex justify-between">
+                            <details key={item.id}
+                            open={openId===item.id} 
+                            //details will only open if condition matches
+                            //if current item id matches openId then it will open or not.
+                           
+                            className="cursor-default group border border-gray-300 rounded-lg  bg-gray-05 shadow-sm open:shadow-md open:border-soft-primary open:bg-white group-open:transition-all duration-300 ease-in-out
+ ">
+                                <summary
+                                onClick= {(e)=>{
+                                    e.preventDefault();
+                                    setOpenId(openId===item.id? null: item.id);
+                                    //when ever the summary tag is clicked the openid changes, if openid changes 
+                                    //the details condition check and that details will be opened. 
+                                    //openId can only store one state value so, everytime new item is clicked the
+                                    //state updates like changes and react re-renders the component. 
+
+                                }}
+                                 className="text-base font-medium group-open:text-hard-primary group-open:border-b border-soft-primary py-3 px-3 flex justify-between">
                                     {item.question}
-                                   <span className=" text-base font-medium rounded-full bg-white group-open:bg-gray-05 group-open:text-black w-6 h-6 text-center flex justify-center items-center">+</span>
+                                    <div className="flex justify-center items-center bg-white rounded-2xl w-6 h-6 group-open:bg-gray-05" >
+                                        <div className="text-lg font-medium mb-1 text-black transition-all duration-200 "> {openId === item.id ? "×" : "+"}</div>
+                                    </div>
+                                  
                                 </summary>
                                 <p className="py-3 px-3 group-open:text-gray-6">{item.answer}</p>
                             </details>
