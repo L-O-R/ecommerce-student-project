@@ -16,7 +16,7 @@ export const auth_navlinks = [
     {
         id: "002",
         name: "signup",
-        link: "signup",
+        link: "register",
 
     },
 ];

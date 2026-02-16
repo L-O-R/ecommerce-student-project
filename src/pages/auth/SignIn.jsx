@@ -7,18 +7,33 @@ const Signin = () => {
     const [password,setPassword] = useState("");
     const [remember,setRemember] = useState(false);
     
+const userData = {
+    email,
+    password
+};
+localStorage.setItem("registeredUser" , JSON.stringify(userData));
 
 const handleSubmit = (e) => {
     e.preventDefault();
-   const userData = { email, password };
    
+    const storedUser = JSON.parse(localStorage.getItem("regsiteredUser"));
+    if(!storedUser) {
+        alert("User Not Found,Please Register");
+        return;
+    }
+    
+    if (email === storedUser.email && password === storedUser.password){
+        alert("Login Successful")
+    }
+     const loginData = {email};
+
    if (remember) {
-    localStorage.setItem("user", JSON.stringify(userData));
+    localStorage.setItem("user", JSON.stringify(loginData));
       } 
     else {
-    sessionStorage.setItem("user", JSON.stringify(userData));
-     }
-    console.log("Login successful");
+    sessionStorage.setItem("user", JSON.stringify(loginData));
+    }
+    console.log("Invalid Email & Password");
 
 };
 
