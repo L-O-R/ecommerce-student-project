@@ -9,9 +9,9 @@ export const APP_NAME = 'E-Commerce Store';
 
 export const auth_navlinks = [
     {
-        id: "001",
-        name: "signin",
-        link: "signin",
+        id:"001",
+        name:"signin",
+        link:"signin",
     },
     {
         id: "002",
