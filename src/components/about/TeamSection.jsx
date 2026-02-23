@@ -106,26 +106,26 @@ return (
                       className="w-full h-60 object-cover"
                 />
                 <div className="bg-black/40 backdrop-blur-[1px] absolute -top-100  group-hover:top-0 left-0 w-full h-full flex items-center justify-center gap-3 text-white">
-                  <Link to= {item?.faceBook}>
+                <Link to= {item?.faceBook}>
                   <div className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-primary transition duration-200 cursor-pointer">
                   <img src={facebook} alt="facebook"/>
                   </div>
-                  </Link>
-                   <Link to= {item?.twitter}>
+                </Link>
+                <Link to= {item?.twitter}>
                    <div className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-primary transition duration-200 cursor-pointer">
                   <img src={twitter} alt="twitter"/>
                   </div> 
-                  </Link>
-                   <Link to= {item?.pinterest}>
+                </Link>
+                <Link to= {item?.pinterest}>
                    <div className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-primary transition duration-200 cursor-pointer">
                   <img src={pinterest} alt="pinterest"/>
                   </div>
-                  </Link>
-                   <Link to= {item?.instragram}>
+                </Link>
+                <Link to= {item?.instragram}>
                    <div className="w-10 h-10 flex items-center justify-center rounded-full hover:bg-primary transition duration-200 cursor-pointer">
                   <img src={instragram} alt="instragram"/>
                   </div>
-                  </Link>
+                </Link>
                    
                 </div>
                 </div>
@@ -145,7 +145,7 @@ return (
             <button
                 onClick={handlePrev}
                 disabled={index === 0}
-                className="absolute left-8 top-[60%] w-[45px] h-[45px] flex items-center justify-center border rounded-full outline outline-gray-100 hover:bg-gray-4 disabled:hidden cursor-pointer"
+                className="absolute left-2 sm:left-4 md:left-6 lg:left-8 top-[55%] w-[45px] h-[45px] flex items-center justify-center border rounded-full outline outline-gray-100 hover:bg-gray-4 disabled:hidden cursor-pointer"
                 >
                 <img
                  src={arrowRight}
@@ -159,7 +159,7 @@ return (
             <button
                 onClick={handleNext}
                 disabled={index >= teammember.length - itemsPerView}
-                className="absolute right-12 top-[60%] w-[45px] h-[45px] flex items-center justify-center border rounded-full outline outline-gray-100 hover:bg-gray-4 disabled:hidden cursor-pointer"
+                className="absolute right-2 sm:right-4 md:right-6 lg:right-12 top-[55%] w-[45px] h-[45px] flex items-center justify-center border rounded-full outline outline-gray-100 hover:bg-gray-4 disabled:hidden cursor-pointer"
                 >
                 <img
                  src={arrowRight}
