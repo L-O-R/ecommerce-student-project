@@ -20,7 +20,7 @@ const ContactInfo = () => {
 
     return (
         /* The main card container */
-        <div className="bg-white rounded-lg  border border-white p-8 max-w-sm mx-auto transition-all duration-300 hover:shadow-2xl">
+        <div className="bg-white rounded-lg  border border-gray-2 p-8 max-w-sm mx-auto transition-all duration-300 hover:shadow-2xl">
             <div className="flex flex-col items-center">
                 {infoData.map((item, index) => (
                     <div key={index} className="w-full flex flex-col items-center text-center">
