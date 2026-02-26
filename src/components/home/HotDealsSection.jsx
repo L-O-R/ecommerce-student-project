@@ -12,7 +12,7 @@ if (!products || products.length === 0) return null;
 
   return (
     <>
-<section className="px-4 py-6 md:px-8 lg:px-12">
+<section className="layout">
       {/* Header */}
       <div className="mb-5 flex items-center justify-between">
         <h2 className="text-lg font-semibold md:text-xl">Hot Deals</h2>
@@ -22,7 +22,7 @@ if (!products || products.length === 0) return null;
       </div>
 
       {/* Grid */}
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5">
         { <FeatureCard key={products[0].id} product={products[0]} />}
         {products.slice(1,12).map((product) =>
         
