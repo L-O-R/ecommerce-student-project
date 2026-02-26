@@ -9,11 +9,16 @@ const PopularProducts = () => {
   return (
     <section className='py-10'>
       <div className="layout flex justify-between items-center">
-      <h2 className="font-medium text-xl">Popular Products</h2>
-      <a href="" className='text-sm text-primary'>View all -- </a>
+
+        <h2 className="font-medium text-xl">Popular Products</h2>
+        <a href="" className='text-sm text-primary'>View all -- </a>
+
+        <h2 className="font-medium text-xl">Popular Products</h2>
+        <a href="" className='text-sm text-primary'>View all --&gt;  </a>
+        87023005da9a7786d865f8a4f5748e1744b0ff48
       </div>
 
- 
+
       <div className=' layout py-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
 
      
