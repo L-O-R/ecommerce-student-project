@@ -3,7 +3,7 @@ import ProductCard from "../shop/ProductCard";
 import productsData from "../../data/products.json";
 
 const PopularProducts = () => {
-  const popularProducts = productsData.products.slice(0, 10);
+  const popularProducts = productsData.products.slice(0,10);
   // this will return the first 10 products from all products
 
   return (
@@ -21,15 +21,17 @@ const PopularProducts = () => {
 
       <div className=' layout py-3 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5'>
 
-        {
-          popularProducts.map((product) => {
-            return (
-              <ProductCard key={product.id} product={product} />
+     
 
-            )
-          })
-        }
-      </div>
+    {
+      popularProducts.map((product)=>{
+        return(
+          <ProductCard key={product.id} product={product}/>
+
+        )
+      })
+    }
+     </div>
     </section>
   )
 }
