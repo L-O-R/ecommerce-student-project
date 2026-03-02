@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "title": "Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18" , "month": "NOV" },
+    "image": "/images/Blog/BlogList/grapefruit.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More "
+  },
+  {
+    "id": 2,
+    "title": "Eget lobortis lorem lacinia. Vivamus pharetra semper,",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/limebulb.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  },
+  {
+    "id": 3,
+    "title": "Maecenas blandit risus elementum mauris malesuada.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/turnip.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  },
+  {
+    "id": 4,
+    "title": "Maecenas blandit risus elementum mauris malesuada.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/turnip.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  },
+  {
+    "id": 5,
+    "title": "Maecenas blandit risus elementum mauris malesuada.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/capsicum.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  }, 
+  {
+    "id": 6,
+    "title": "Maecenas blandit risus elementum mauris malesuada.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/orange.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  }, 
+  {
+    "id": 7,
+    "title": "Maecenas blandit risus elementum mauris malesuada.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/oranges.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  }, 
+  {
+    "id": 8,
+    "title": "Maecenas blandit risus elementum mauris malesuada.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/strawberry.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  },
+  {
+    "id": 9,
+    "title": "Maecenas blandit risus elementum mauris malesuada.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/capsicum.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  },
+  {
+    "id": 10,
+    "title": "Maecenas blandit risus elementum mauris malesuada.",
+    "category": "Food",
+    "author": "Admin",
+    "comments": 65,
+    "date": { "day": "18", "month": "NOV" },
+    "image": "/images/Blog/BlogList/turnip.png",
+    "meta": [
+      { "label": "Food", "icon": "/public/images/Blog/tag.png" },
+      { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
+      { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
+    ],
+    "readMoreLink": "Read More"
+  }
+]

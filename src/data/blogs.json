@@ -6,13 +6,13 @@
     "author": "Admin",
     "comments": 65,
     "date": { "day": "18" , "month": "NOV" },
-    "image": "/public/images/Blog/Image.png",
+    "image": "/images/Blog/BlogList/grapefruit.png",
     "meta": [
       { "label": "Food", "icon": "/public/images/Blog/tag.png" },
       { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
       { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
     ],
-    "readMoreLink": "#"
+    "readMoreLink": "Read More "
   },
   {
     "id": 2,
@@ -21,13 +21,13 @@
     "author": "Admin",
     "comments": 65,
     "date": { "day": "29", "month": "JAN" },
-    "image": "/public/images/Blog/Image-2.png",
+    "image": "/images/Blog/BlogList/limebulb.png",
     "meta": [
       { "label": "Food", "icon": "/public/images/Blog/tag.png" },
       { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
       { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
     ],
-    "readMoreLink": "#"
+    "readMoreLink": "Read More"
   },
   {
     "id": 3,
@@ -36,12 +36,13 @@
     "author": "Admin",
     "comments": 65,
     "date": { "day": "21", "month": "FEB" },
-    "image": "/public/images/Blog/Image-3.png",
+    "image": "/images/Blog/BlogList/turnip.png",
     "meta": [
       { "label": "Food", "icon": "/public/images/Blog/tag.png" },
       { "label": "By Admin", "icon": "/public/images/Blog/user.png" },
       { "label": "65 Comments", "icon": "/public/images/Blog/comment.png" }
     ],
-    "readMoreLink": "#"
+    "readMoreLink": "Read More"
   }
+  
 ]

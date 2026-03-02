@@ -1,7 +1,10 @@
+
+import BlogCard from "../components/blog/BlogCard";
 const BlogList = () => {
     return (
         <div className="blog-list-page">
-            <h1>Blog List Page</h1>
+            <BlogCard/>
+            
         </div>
     );
 };
