@@ -1,7 +1,12 @@
+import CommentSection from "../components/blog/CommentSection";
+import Singleblog from "../components/blog/Singleblog";
+
 const BlogList = () => {
     return (
         <div className="blog-list-page">
-            <h1>Blog List Page</h1>
+
+            <Singleblog />
+            <CommentSection />
         </div>
     );
 };
