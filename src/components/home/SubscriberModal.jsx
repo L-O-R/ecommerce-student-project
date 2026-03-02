@@ -7,9 +7,13 @@ const SubscriberModal = () => {
   const refObj = useRef(null);
 
  useEffect( ()=>{
+ const shouldHide = localStorage.getItem("hideSubscriberModal");
  
+     if (!shouldHide) {
     refObj.current.showModal();
- 
+  }
+  //previously only if checkbox is not clicked, then no shouldHide from the localStorage that's
+  //why the modal will be opened. if local storage has this item modal will not be opened. 
  }
   ,[]
  );
@@ -95,7 +99,17 @@ const SubscriberModal = () => {
                 </div>
 
                 <div className="flex gap-2 items-center text-sm">
-                  <input id="checkbox" type="checkbox" />
+
+                  <input id="checkbox" type="checkbox" ref={refObj}
+                  onChange= {(e)=>{
+                    if(e.target.checked){
+                      localStorage.setItem("hideSubscriberModal", "true");
+                      refObj.current.close(); 
+                    }
+                  }} />
+                  {/*if checkbox is clicked then modal will close and from next time
+                  this subscription modal will not be visible */}
+
                   <label htmlFor="checkbox">
                     Do not show this window
                   </label>
