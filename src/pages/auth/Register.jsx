@@ -44,14 +44,29 @@ const Register = () => {
     setError("Passwords do not match");
     return;
   }
+   const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-  const userData = {
+  // check if email already exists
+  const emailExists = storedUsers.some(
+    (user) => user.email === formData.email
+  );
+
+  if (emailExists) {
+    setError("Email already registered");
+    return;
+  }
+
+  const newUser = {
+    id: Date.now(),
     email: formData.email,
     password: formData.password,
   };
 
+  // add new user
+  storedUsers.push(newUser);
+
   // localStorage
-  localStorage.setItem("user", JSON.stringify(userData));
+  localStorage.setItem("users", JSON.stringify(storedUsers));
 
   alert("Account created successfully!");
   navigate("/signin");

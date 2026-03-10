@@ -19,27 +19,27 @@ const handleSubmit = (e) => {
     setError("");
     setSuccess("");
    
-    const storedUser = JSON.parse(localStorage.getItem("user")) || [];
-    if(!storedUser) {
-        setError("User Not Found,Please Register First");
-        return;
+    const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
+    
+
+    const user = storedUsers.find((u) => u.email === email);
+    if (!user) {
+      setError("User not found");
+      return;
+    }
+     if (user.password !== password) {
+      setError("Incorrect Password");
+      return;
     }
     
-    if (storedUser.email!== email){
-        console.log(storedUser.email)
-        console.log(email)
-        setError("Email not found");
-        return;
-    }
-    if (storedUser.password!== password){
-        setError("Incorrect Password");
-        return;
-    }
-
+    
     setSuccess("Login Successful");
      
     
-    const loginData = {email};
+    const loginData = {
+      id: user.id,
+      email: user.email,
+    };
 
    if (remember) {
     localStorage.setItem("loggedInUser", JSON.stringify(loginData));
