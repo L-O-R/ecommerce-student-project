@@ -1,4 +1,5 @@
 import Blogs from "../../data/blogList.json";
+import BlogSidebar from "./BlogSidebar";
 
 const BlogCard = () => {
   return (
@@ -10,6 +11,7 @@ const BlogCard = () => {
         {/* LEFT SIDEBAR */}
         <section className="w-full lg:basis-[30%]">
           {/* Sidebar Component */}
+          <BlogSidebar/>
         </section>
 
         {/* RIGHT CONTENT */}
